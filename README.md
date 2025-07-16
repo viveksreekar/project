@@ -76,6 +76,9 @@ This is a more robust file organizer that categorizes files into predefined grou
 
 Feel free to fork this repository, suggest improvements, or open issues if you encounter any problems.
 
+
+
+
 # 2. Personal Expense Tracker🧾
 This repository contains a **Personal Expense Tracker** application built with Python's Tkinter for the graphical user interface and SQLite for data storage. It allows users to efficiently manage their daily expenses, track spending, and visualize financial data through interactive graphs.
 
