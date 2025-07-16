@@ -1,7 +1,7 @@
-# project
+## Project
 
-1.The Command-Line File Organizer 📁🔍
+1. The Command-Line File Organizer 📁🔍
 
-2.Personal Expense Tracker🧾
+2. Personal Expense Tracker🧾
 
-3.Library Management System🔍📚
+3 .Library Management System🔍📚
