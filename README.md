@@ -1,4 +1,4 @@
-# Project
+# Project-1
 
 # 1. The Command-Line File Organizer 📁🔍
 This repository contains two Python scripts for organizing files within a directory.
