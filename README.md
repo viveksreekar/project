@@ -139,3 +139,62 @@ This repository contains a **Personal Expense Tracker** application built with P
 Feel free to fork the repository, open issues, or submit pull requests to improve the application.
 
 # 3. Library Management System🔍📚
+
+# Console-Based Library Management System
+
+A robust and efficient console-based application built with Python to simulate a complete library system. This project demonstrates core software engineering principles through a clean, object-oriented design and modular structure. It features separate roles for administrators and users, persistent data storage, and essential library functionalities.
+
+---
+
+### Features
+
+-   **Dual User Roles:**
+    -   **Admin Module:** A password-protected interface (`password: admin`) for managing the library's inventory.
+        -   Add new books and register new members.
+        -   View comprehensive lists of all books and registered members.
+    -   **User Module:** An open-access menu for members to interact with the library.
+        -   Issue and return books.
+        -   Search for books by title or author.
+        -   View all available books.
+
+-   **Book Management:**
+    -   **Issuance & Returns:** Tracks the status of each book (Available/Issued) and links issued books to members.
+    -   **Fine Calculation:** Automatically calculates fines for overdue books (e.g., books kept for more than 14 days).
+
+-   **Data Handling:**
+    -   **Persistent Storage:** All book and member data is automatically saved to `books.json` and `members.json` upon exiting the application, ensuring no data is lost between sessions.
+    -   **Data Integrity:** The system loads existing data upon startup, maintaining the library's state.
+
+-   **Search Functionality:**
+    -   Allows both admins and users to quickly find books by searching for partial or full matches of a book's title or author.
+
+---
+
+### Skills Demonstrated
+
+-   **Object-Oriented Programming (OOP):** The system is built around classes for `Book`, `Member`, and `Library`, showcasing principles like encapsulation and abstraction.
+-   **Data Handling & Persistence:** Reading from and writing to JSON files for persistent data storage.
+-   **Modular Code Structure:** The project is organized into three distinct files (`models.py`, `library.py`, `main.py`) for better readability, maintainability, and separation of concerns.
+-   **User Authentication:** Implements a basic password-based authentication logic for the admin role.
+-   **Console I/O:** Clean and intuitive command-line interface for seamless user interaction.
+-   **Core Python Libraries:** Effective use of standard libraries like `datetime` for handling dates, `json` for data serialization, and `os` for path management.
+
+---
+
+### How to Run
+
+1.  **Prerequisites:** Ensure you have Python 3.x installed on your system.
+2.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    cd your-repository-name
+    ```
+3.  **Run the Application:**
+    Execute the `main.py` file from your terminal.
+    ```bash
+    python main.py
+    ```
+4.  **Interact with the Menu:**
+    -   Follow the on-screen prompts to navigate between the Admin and User menus.
+    -   The password for the Admin menu is `admin`.
+
